@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="intelligent_assistant:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/intelligent_assistant_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="intelligent_assistant/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="intelligent_assistant" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
