@@ -17,19 +17,19 @@ public class UpdateDocument {
 //        System.out.println(p.say("Олеговна", NameType.PatronymicName, Gender.Female, Case.Genitive));
 //        System.out.println(p.say("Олейник", NameType.LastName, Gender.Female, Case.Genitive));
         HashMap<String, String> data = new HashMap<String, String>();
-        data.put("department", "общей информатики");
-        data.put("{имя_студента}", "Олейник Алина Александровна");
+        data.put("названиеКафедры", "общей информатики");
+        data.put("имяСтудентаР", "Олейник Алины Олеговны");
         data.put("group", "18205");
-        data.put("placePractice", "ФГБУН Институт математики им. С. Л. Соболева СО РАН, 630090, г. Новосибирск, пр. Академика Коптюга, 4 ");
-        data.put("sciO", "Пальчунов Дмитрий Евгеньевич");
-        data.put("org", "Заведующий кафедры");
-        data.put("sciV", "Пальчунов Дмитрий Евгеньевич");
-        data.put("post_vkr", "Заведующий кафедры");
-        data.put("sciN", "Пальчунов Дмитрий Евгеньевич");
-        data.put("nsu", "Заведующий кафедры");
-        data.put("topic", "Разработка интеллектуального помощника секретаря кафедры");
+        data.put("местоПрактики", "ФГБУН Институт математики им. С. Л. Соболева СО РАН, 630090, г. Новосибирск, пр. Академика Коптюга, 4 ");
+        data.put("имяРуководителяНГУ", "Пальчунов Дмитрий Евгеньевич");
+        data.put("должРукНГУ", "заведующий КОИ ФИТ, д.ф.-м.н.");
+        data.put("имяРуководителяП", "Пальчунов Дмитрий Евгеньевич");
+        data.put("должРукП", "в.н.с., д.ф.-м.н.");
+        data.put("имяРуководителяВКР", "Пальчунов Дмитрий Евгеньевич");
+        data.put("должРукВКР", "заведующий КОИ ФИТ, д.ф.-м.н.");
+        data.put("темаЗадания", "Разработка интеллектуального помощника секретаря кафедры");
         obj.updateDocument(
-                "09.03.01_PIiKN_VKR_recenziya (1).docx",
+                "Otchet.docx",
                 "D:\\Diploma\\intelligent_assistant\\Test2.docx",
                 data);
 }

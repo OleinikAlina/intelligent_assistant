@@ -11,7 +11,7 @@ public class ViewData {
         myWindow.addLabel("Просмотреть информацию о", 2*sSize.width/49,3,1000,200, "#B51D0A", 45);
         JButton exit = myWindow.addButton("назад",4*sSize.width/7,4*sSize.height/7,140,35, "#B51D0A");
         String[] items = {
-                "Учащихся",
+                "обучающихся",
                 "Рецензентах",
                 "Руководителях ВКР",
                 "Руководителях практики"
